@@ -24,11 +24,11 @@ const Header = () => {
         />
         <div className="header__input">
           <SearchIcon />
-          <input type="search" />
+          <input type="search" placeholder="Seach Facebook..." />
         </div>
       </div>
-      <div className="header__middle">
-        <div className="header__option">
+      <div className="header__center">
+        <div className="header__option header__option--active">
           <HomeIcon fontSize="large" />
         </div>
         <div className="header__option">
@@ -47,7 +47,7 @@ const Header = () => {
       </div>
       <div className="header__right">
         <div className="header__info">
-          <Avatar />
+          <Avatar src="https://avatars2.githubusercontent.com/u/13881938?s=400&u=8e4913157e73479e351c6405ccae18ecb415d947&v=4" />
           <h4>Anthony</h4>
         </div>
         <IconButton>
